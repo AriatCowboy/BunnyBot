@@ -16,14 +16,14 @@ from discord.voice_client import VoiceClient
 from discord.message import Attachment
 
 prefix = '!'
-TOKEN = "NjgwMzMwODE4NDEzMTMzODU0.XlCkUA.71LO_3VVN6MmZVFie5svQ2JSqpY"
+TOKEN = "Token"
 client = commands.Bot(command_prefix='!')
 client.remove_command('help')
 Bot_Location = "E:\\Coding_Practice\\Python\\BunnyBot_Divnes_Bot"
 musicchannel = ["music-bot"]
 bot_name = "BunnyBot"
-Creator = "-=UNiTY=- AriatCowboy#0404"
-Creator_ID = 149044658549424128
+Creator = "-=UNiTY=- AriatCowboy"
+Creator_ID = #################
 delay_log = 900
 valid_users = [Creator]
 play_music = [prefix + "yt", prefix + "clear", prefix + "queue", prefix + "pause", prefix + "resume", prefix + "volume", prefix + "join", prefix + "skip", prefix + "stop", prefix + "play"]
@@ -232,7 +232,7 @@ def read_bot_channel(message):
 				bot_channel = line
 				return bot_channel
 
-#checks if there is a curse word or someone using some sort of offensive language
+#processes the commands and what commands can be used where
 @client.event
 async def on_message(message):
 	if message.author == client.user:
