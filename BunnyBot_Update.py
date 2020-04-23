@@ -21,13 +21,13 @@ from discord.voice_client import VoiceClient
 from discord.message import Attachment
 
 prefix = '!'
-TOKEN = "NTY3MTYxNzczMjM3NzMxMzMw.Xk4eRg.3WDE9GXOTJuds34EYfQvjMrRLQc"
+TOKEN = "Tocken"
 client = commands.Bot(command_prefix='!')
 client.remove_command('help')
 Bot_Location = "E:\\Coding_Practice\\Python\\BunnyBot_Divnes_Bot"
 bot_name = "BunnyBot"
 Creator = "-=UNiTY=- AriatCowboy#0404"
-Creator_ID = 149044658549424128
+Creator_ID = #################
 valid_users = [Creator]
 status = ["Music", "Type " + prefix + "help", "Type " + prefix + "music", "Chill Vibes", "Feed BunnyBot"]
 play_music = [prefix + "yt", prefix + "clear", prefix + "queue", prefix + "pause", prefix + "resume", prefix + "volume", prefix + "join", prefix + "skip", prefix + "stop", prefix + "play"]
