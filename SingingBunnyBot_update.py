@@ -4,20 +4,13 @@ from twitch_db import update_twitch, authorized_users
 from Song_suggestions import suggest, conn
 from Song_List import connect, insert_song
 from twitchio.ext import commands
-
-TMI_TOKEN = "oauth:1qjj2944mdkz3cplyenq50ksa6znkn"
-CLIENT_ID = "Pivk5b4z7x9x2zxvkaqpye00ig8tm76"
-BOT_NICK = "singingbunnybot"
-BOT_PREFIX = "!"
-CHANNEL = "SingingBunnyBot"
-
 bot = commands.Bot(
 		# set up the bot
-	irc_token="oauth:1qjj2944mdkz3cplyenq50ksa6znkn",
-	client_id="Pivk5b4z7x9x2zxvkaqpye00ig8tm76",
-	nick="singingbunnybot",
+	irc_token="oauth:TOCKEN",
+	client_id="ID",
+	nick="NAME",
 	prefix="!",
-	initial_channels=["SingingBunnyBot"])
+	initial_channels=["CHANNEL_NAME"])
 
 @bot.event
 async def event_ready():
