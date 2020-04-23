@@ -3,7 +3,6 @@ import time
 import datetime
 import asyncio
 import os
-import pickle
 import ffmpeg
 import youtube_dl
 import emoji
