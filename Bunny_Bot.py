@@ -48,29 +48,11 @@ async def on_ready():
 async def update_database(message):
 	guild_name = message.author.guild
 	await Get_update_guild(guild_name)
-
-	print("madeithere")
-
 	Get_update_text_channels(message)
-
-	print("madeithere")
-
 	Get_update_voice_channels(message)
-
-	print("madeithere")
-
 	Get_update_cat(message)
-
-	print("madeithere")
-
 	Get_update_users(message)
-
-	print("madeithere")
-
 	await Get_update_ban(message)
-
-	print("madeithere")
-
 	update_logs(message)
 
 async def Get_update_guild(guild_name):
